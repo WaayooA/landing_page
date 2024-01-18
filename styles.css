@@ -164,22 +164,54 @@ button{
     display: flex;
     gap: 90px;
     background-color: #3882f6;
-    border-radius: 15px;
-    padding: 10px 20px;
+    border-radius: 5px;
+    padding: 25px 65px;
 }
 
 .sign-up-text{
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    padding: 15px;
+    padding: 2px;
+}
+
+.sign-up-text .call-to{
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up-text .sign-to{
+    color: #e5e7eb;
 }
 
 .blue-square button{
-    display: flex;
+    text-align: center;
     background-color: #3882f6;
     border: 2px solid #e5e7eb;
     color: #e5e7eb;
-    border-radius: 3px;
-    width: 80px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.blue-square .button{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/* Footer section*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    
+}
+
+footer div{
+    color: #e5e7eb;
+    padding: 25px 0px;
 }
